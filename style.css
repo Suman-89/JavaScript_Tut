@@ -1,0 +1,55 @@
+table
+{
+    border-radius: 10px;
+    background-color:rgb(12, 189, 51);
+    border-bottom: 12px;
+    width: 50%;
+}
+input
+{
+    width: 150px;
+    height: 35px;
+    font-size: 22px;
+}
+.number
+{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color: brown;
+}
+.keypad 
+{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    border-radius: 25px;
+}
+.operator
+{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.Off
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: 30;
+}
+.On
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(9, 255, 0);
+    color: white;
+    font-size: 30;
+}

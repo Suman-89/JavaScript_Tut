@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Calculator</title>
+    <link rel="stylesheet" href="./styleAc.css" type="text/css">
+</head>
+<body bgcolor="aquamarine">
+    <h1 align="center"">Advanced Calculator</h1>
+    <center>
+        <div>
+            <form name="mainform">
+                <br>
+                <input type="text" name="result" class="result">
+                <br><br>
+                <input type="button" name="1" value="1"class="number" onclick="mainform.result.value += '1'">
+                <input type="button" name="2" value="2"class="number"onclick="mainform.result.value += '2'">
+                <input type="button" name="3" value="3"class="number"onclick="mainform.result.value += '3'">
+                <br><br>
+                <input type="button" name="4" value="4"class="number"onclick="mainform.result.value += '4'">
+                <input type="button" name="5" value="5"class="number"onclick="mainform.result.value += '5'">
+                <input type="button" name="6" value="6"class="number"onclick="mainform.result.value += '6'">
+                <br><br>
+                <input type="button" name="7" value="7"class="number"onclick="mainform.result.value += '7'">
+                <input type="button" name="8" value="8"class="number"onclick="mainform.result.value += '8'">
+                <input type="button" name="9" value="9"class="number"onclick="mainform.result.value += '9'">     
+                <br><br>
+                <input type="button" name="+" value="+"class="number" id="operation"onclick="mainform.result.value += '+'">
+                <input type="button" name="0" value="0"class="number"onclick="mainform.result.value += '0'">
+                <input type="button" name="-" value="-"class="number" id="operation"onclick="mainform.result.value += '-'">
+                <br><br>
+                <input type="button" name="*" value="*"class="number" id="operation"onclick="mainform.result.value += '*'">
+                <input type="button" name="/" value="/"class="number" id="operation"onclick="mainform.result.value += '/'">
+                <input type="button" name="%" value="%"class="number" id="operation"onclick="mainform.result.value += '%'">
+                <br><br>
+                <input type="button" name="On" value="On"class="number" style="background-color: green;">
+                <input type="button" name="Off" value="Off"class="number" style="background-color: red;">
+                <input type="button" name="=" value="="class="number" style="background-color: rgb(112, 112, 74);"onclick="mainform.result.value = eval(mainform.result.value)">
+                <br><br>
+                <input type="button" name="Clear" value="Clear"class="number" style="background-color: yellow; margin: 5px;"onclick="mainform.result.value = ''">
+
+
+            </form>
+        </div>
+    </center>
+</body>
+</html>

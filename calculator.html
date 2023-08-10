@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor="azure">
+    <h1 align="center">Calculator using JavaScript</h1>
+    <table border="0" cellspacing="10" align="center">
+        <tr>
+            <td><input type="text" placeholder="Number1" style="width: 142px;"class="number" id="n1"></td>
+            <td><input type="text" placeholder="Number2" style="width: 142px;"class="number" id="n2"></td>
+            <td><input type="text" placeholder="Answar" style="width: 142px;"class="number" id="ans"></td>
+        </tr>
+
+            <!--number button start-->
+
+        <tr>
+            <th><input type="submit" value="1"class="keypad"id="1" onclick="o1()"></th>
+            <th><input type="submit" value="2"class="keypad"id="2" onclick="t2()"></th>
+            <th><input type="submit" value="3"class="keypad"id="3" onclick="t3()"></th>
+        </tr>
+        <tr>
+            <th><input type="submit" value="4"class="keypad"id="4" onclick="f4()"></th>
+            <th><input type="submit" value="5"class="keypad"id="5" onclick="f5()"></th>
+            <th><input type="submit" value="6"class="keypad"id="6" onclick="s6()"></th>
+        </tr>
+        <tr>
+            <th><input type="submit" value="7"class="keypad"id="7" onclick="s7()"></th>
+            <th><input type="submit" value="8"class="keypad"id="8" onclick="e8()"></th>
+            <th><input type="submit" value="9"class="keypad"id="9" onclick="n9()"></th>
+        </tr>
+
+        <!--number button end-->
+
+        <tr>
+            <th><input type="submit" value="+"class="operator"id="+" onclick="sum()"></th>
+            <th><input type="submit" value="-"class="operator"id="-" onclick="substraction()"></th>
+            <th><input type="submit" value="*"class="operator"id="*" onclick="multiplication()"></th>
+        </tr>
+        <tr>
+            <th><input type="submit" value="/"class="operator"id="/" onclick="division()"></th>
+            <th><input type="submit" value="%"class="operator"id="%" onclick="modulus()"></th>
+            <th><input type="submit" value="Off"id="off"class="Off" onclick="off()"></th>
+        </tr>
+        <tr>
+            <th colspan="3"><input type="submit" value="On"id="on"class="On" onclick="on()"></th>    
+        </tr>
+    </table>
+    <script src="calc.js" type="text/JavaScript">
+    </script>
+    <script src="test.js" type="text/JavaScript"></script>
+    <!-- <script src="practice.js" type="text/JavaScript"></script> -->
+    <!-- <script src="smallProject.js" type="text/JavaScript"></script> -->
+</body>
+</html>
